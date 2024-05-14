@@ -8,7 +8,7 @@ const timer = () => {
     const milliCounter = document.querySelector(".millisecond");
 
     let currentTime = new Date();
-    let startedDating = new Date(2023, 6, 2, 17, 30, 0);
+    let startedDating = new Date(2023, 6, 2, 18, 30, 0);
     let timeDiff = currentTime - startedDating;
 
     let yearsDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365.25));
